@@ -43,6 +43,7 @@ header {
   font-weight: 700;
   line-height: 75px;
   color: var(--quaternary-color);
+  cursor: pointer;
 }
 
 nav {
@@ -62,6 +63,7 @@ nav > ul > li {
   font-weight: 500;
   font-size: 1.2rem;
   color: #424242;
+  cursor: pointer;
 }
 
 /* Hero Section Styles */
@@ -75,7 +77,6 @@ nav > ul > li {
 
 .hero__content {
   max-width: 862px;
-  margin-bottom: 33px;
   text-align: center;
 }
 
@@ -100,8 +101,8 @@ nav > ul > li {
   object-fit: cover;
 }
 
-.hero__btn {
-  margin-bottom: 50px;
+.btn-primary {
+  margin: 35px 0;
   padding: 20px 24px;
   font-size: 1.2rem;
   font-weight: 600;
@@ -110,4 +111,59 @@ nav > ul > li {
   text-transform: capitalize;
   border-radius: 8px;
   transition: all 0.3s ease;
+  cursor: pointer;
+  border: none;
 }
+
+.btn-primary:hover {
+  background-color: #ff7e00;
+}
+
+/* About Section Styles */
+
+.about__section {
+  padding: 84px 0;
+  display: flex;
+  align-items: center;
+}
+
+.team__section {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+}
+
+.feature__info {
+  margin-left: 74px;
+}
+
+.feature__title {
+  font-size: 2.8rem;
+  font-weight: 700;
+  color: var(--quaternary-color);
+  margin-bottom: 1rem;
+}
+
+.quick__list {
+  font-weight: 500;
+  font-size: 45px;
+  color: #727272;
+}
+.of__our {
+  font-weight: 700;
+  font-size: 45px;
+  color: var(--quaternary-color);
+}
+.feature {
+  font-weight: 700;
+  font-size: 45px;
+  color: var(--tertiary-color);
+}
+.feature__text {
+  font-size: 1rem;
+  font-weight: 400;
+  color: var(--quinary-color);
+  line-height: 26px;
+}
+
+/* Services Section Styles */
