@@ -1,0 +1,113 @@
+/* Import Work Sans Font Family From Google */
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,200&display=swap");
+
+/* Reset CSS Code */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Root   */
+:root {
+  --primary-color: #fff4e7;
+  --secondary-color: #f9f9f9;
+  --tertiary-color: #ff900e;
+  --quaternary-color: #131313;
+  --quinary-color: #727272;
+  --primary-font: "Work Sans", sans-serif;
+}
+
+/* Body */
+
+body {
+  font-family: var(--primary-font);
+}
+
+.container {
+  max-width: 1250px;
+  margin: 0 auto;
+}
+
+/* Header  Section Styles */
+.header__section {
+  background-color: var(--primary-color);
+  padding: 50px 0;
+}
+header {
+  padding-bottom: 100px;
+}
+
+.header__logo {
+  font-size: 2.8rem;
+  font-weight: 700;
+  line-height: 75px;
+  color: var(--quaternary-color);
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav > ul {
+  display: flex;
+  list-style: none;
+  gap: 3rem;
+}
+
+nav > ul > li {
+  text-transform: capitalize;
+  font-weight: 500;
+  font-size: 1.2rem;
+  color: #424242;
+}
+
+/* Hero Section Styles */
+
+.hero__section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero__content {
+  max-width: 862px;
+  margin-bottom: 33px;
+  text-align: center;
+}
+
+.hero__title {
+  font-size: 4rem;
+  font-weight: 700;
+  color: var(--quaternary-color);
+  margin-bottom: 1rem;
+}
+
+.hero__text {
+  font-size: 1rem;
+  font-weight: 400;
+  color: var(--quinary-color);
+  text-align: center;
+  line-height: 26px;
+}
+
+.hero__img {
+  width: 1440px;
+  height: 700px;
+  object-fit: cover;
+}
+
+.hero__btn {
+  margin-bottom: 50px;
+  padding: 20px 24px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  background-color: var(--tertiary-color);
+  color: #fff;
+  text-transform: capitalize;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
