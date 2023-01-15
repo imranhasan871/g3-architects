@@ -390,6 +390,8 @@ footer > p {
 @media only screen and (max-width: 575.98px) {
   .container {
     max-width: 580px;
+    padding: 0 20px;
+    text-align: center;
   }
 
   nav,
@@ -415,5 +417,17 @@ footer > p {
   .team__section {
     grid-template-columns: repeat(1, 1fr);
     gap: 24px;
+  }
+  .some-facts__title,
+  .some-facts__text {
+    text-align: center;
+  }
+  .some__facts__details,
+  .sponsor__section,
+  .testimonial__section,
+  .sponsor__details,
+  .testimonial__details {
+    flex-direction: column;
+    gap: 20px;
   }
 }
