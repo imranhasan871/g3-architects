@@ -167,3 +167,142 @@ nav > ul > li {
 }
 
 /* Services Section Styles */
+
+.services__section {
+  display: flex;
+}
+
+.services__details {
+  margin-right: 144px;
+}
+
+hr {
+  width: 5px;
+  height: 100px;
+  background-color: var(--tertiary-color);
+  border: none;
+}
+
+.services__info {
+  margin-bottom: 50px;
+}
+
+.feature__heading {
+  display: flex;
+  gap: 20px;
+}
+
+.services__title {
+  font-size: 2.8rem;
+  font-weight: 700;
+  color: var(--quaternary-color);
+  margin-bottom: 1rem;
+}
+
+.services__text {
+  font-size: 1rem;
+  font-weight: 400;
+  color: var(--quinary-color);
+  line-height: 26px;
+}
+
+.services__items {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.service {
+  width: 586px;
+  height: 171px;
+  padding: 30px;
+  background: #ffffff;
+  box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+  border-radius: 8px;
+}
+
+.service__item__title {
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: var(--quaternary-color);
+  margin-bottom: 0.4rem;
+}
+
+.experience {
+  width: 342px;
+  height: 200px;
+  border-radius: 8px;
+  background-color: var(--tertiary-color);
+  text-align: center;
+  color: #fff;
+  position: relative;
+  top: -140px;
+  left: -80px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.heading {
+  font-size: 4rem;
+  font-weight: 700;
+}
+.experience__text {
+  font-weight: 500;
+  font-size: 25px;
+}
+
+/* Some Facts Section Style */
+.some__facts__section {
+}
+.some-facts__title {
+  font-size: 2.8rem;
+  font-weight: 700;
+  color: var(--quaternary-color);
+  margin-bottom: 1rem;
+}
+
+.some-facts__text {
+  font-size: 1rem;
+  font-weight: 400;
+  color: var(--quinary-color);
+  line-height: 26px;
+}
+
+.some__facts__details {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 85px;
+}
+
+.some__fact__item {
+  width: 240px;
+  height: 240px;
+  background-color: #fff;
+  border: 1px solid var(--tertiary-color);
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+.some__fact__item:hover {
+  transform: scale(1.1);
+  transition: all 0.3s ease;
+}
+
+.some__fact__item__title {
+  font-weight: 600;
+  font-size: 45px;
+  line-height: 53px;
+  color: #424242;
+}
+
+.some__fact__item__text {
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: #727272;
+}
